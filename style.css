@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+canvas {
+  display: block;
+}
+input{
+ color:cyan;
+ background-image: linear-gradient(to right, red,cyan);
+ width: 500px;
+ height:50px;
+ border-radius: 100px;
+ font-size: larger;
+ 
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(Caribbean.ttf);
+}
+input:hover{
+  background-image:radial-gradient(red,yellow);
+}
+*{
+  font-family: myFirstFont;
+}
+button{
+  border-radius: 100px;
+  width:200px;
+  height:50px;
+  font-size:20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
